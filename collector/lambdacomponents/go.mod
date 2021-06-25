@@ -12,6 +12,7 @@ require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sapmexporter v0.27.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter v0.27.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/logzioexporter v0.27.0
-	github.com/stretchr/testify v1.7.0
+	// NOTE: (NathanielRN) Do we need this? I see it in aws-otel-collector `pkg/lambdacomponents/go.mod`
+	// github.com/stretchr/testify v1.7.0
 	go.opentelemetry.io/collector v0.27.0
 )
